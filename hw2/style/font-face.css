@@ -1,4 +1,4 @@
-.nav-link:hover{
+.nav-link:hover, .nav-link:focus{
     color: lightblue;
 }
 .nav-link{
@@ -9,7 +9,6 @@
     font-family: PlayfairDisplay;
     font-size: 14pt;
 }
-
 section{
     color: #626262;
 }
@@ -17,6 +16,7 @@ section{
     font-family: ubuntu;
     font-size: 14pt;
     color:#b4ad9e;
+    text-transform: uppercase;
 }
 h2{
     font-family:PlayfairDisplay;
@@ -29,4 +29,5 @@ button{
     background: white;
     font-family: PlayfairDisplay;
     font-size: 20pt; 
+    border: 1px solid black;
 }
