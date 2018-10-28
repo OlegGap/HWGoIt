@@ -1,0 +1,32 @@
+.nav-link:hover{
+    font-family: Myriad Pro;
+    color: lightblue;
+}
+.nav-link{
+    text-decoration: none; 
+    color:black;  
+}
+.nav-item{
+    font-family: PlayfairDisplay;
+    font-size: 14pt;
+}
+section{
+    color: #626262;
+}
+.text{
+    font-family: ubuntu;
+    font-size: 14pt;
+    color:#b4ad9e;
+}
+h2{
+    font-family:PlayfairDisplay;
+}
+.text-main{
+    font-family: PlayfairDisplay;
+    font-size: 14pt;
+}
+button{
+    background: white;
+    font-family: PlayfairDisplay;
+    font-size: 20pt; 
+}
