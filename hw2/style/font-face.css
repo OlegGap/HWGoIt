@@ -1,4 +1,6 @@
-
+.nav-link:hover{
+    color: lightblue;
+}
 .nav-link{
     text-decoration: none; 
     color:black;  
@@ -7,9 +9,7 @@
     font-family: PlayfairDisplay;
     font-size: 14pt;
 }
-.nav-link:hover{
-    color: lightblue;
-}
+
 section{
     color: #626262;
 }
