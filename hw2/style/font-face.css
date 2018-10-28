@@ -1,7 +1,4 @@
-.nav-link:hover{
-    font-family: Myriad Pro;
-    color: lightblue;
-}
+
 .nav-link{
     text-decoration: none; 
     color:black;  
@@ -9,6 +6,9 @@
 .nav-item{
     font-family: PlayfairDisplay;
     font-size: 14pt;
+}
+.nav-link:hover{
+    color: lightblue;
 }
 section{
     color: #626262;
