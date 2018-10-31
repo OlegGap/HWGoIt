@@ -32,15 +32,22 @@ article:not(:nth-child(6)){
 article:nth-child(5){
     padding-bottom: 0px;
 }
+<<<<<<< HEAD
 button:hover{
     cursor: pointer;
 }
+=======
+>>>>>>> e8eb68c3c968c669b01bc9906559a3684e4bf522
 button{
     margin-top: 55px;
     width: 160px;
     height: 60px;
+<<<<<<< HEAD
 }
 footer{
     text-align: center;
+=======
+    display: inline-block;
+    margin-left:390px;
+>>>>>>> e8eb68c3c968c669b01bc9906559a3684e4bf522
 }
-
