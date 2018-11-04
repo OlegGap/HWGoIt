@@ -1,129 +1,121 @@
-body{
-    margin:0 auto;
-    padding:0;
-    display: inline-block;
-    width: 1170px;
+body {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  width: 1170px;
 }
-.header-logo{
-    float: left;
-    margin-top:35px;
-    margin-left:30px;
+.header-logo {
+  float: left;
+  margin-top: 35px;
+  margin-left: 30px;
 }
-.header-logo::first-letter{
-    color:hsl(192, 100%, 50%);
+.header-logo::first-letter {
+  color: hsl(192, 100%, 50%);
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-.nav-link{
-    text-decoration: none;
-    color:black;
+.nav-link {
+  text-decoration: none;
+  color: black;
 }
-.nav-item{
-    float: right;
-    padding-left: 35px;
-    padding-top: 43px;
+.nav-item {
+  float: right;
+  padding-left: 35px;
+  padding-top: 43px;
 }
-.nav-list{
-    margin-right: 30px;
+.nav-list {
+  margin-right: 30px;
 }
-.nav-link:hover, .nav-link:focus{
-    color: hsl(192, 100%, 50%);
+.nav-link:hover,
+.nav-link:focus {
+  color: hsl(192, 100%, 50%);
 }
-h1{
+h1 {
   display: inline-block;
   position: relative;
   margin-top: 110px;
   margin-right: 0px;
   margin-bottom: 100px;
 }
-h1::after{
-    content: "";
-    width: 160px;
-    height: 5px;
-    position: absolute;
-    bottom: -30px;
-    left:505px;
-    background: hsl(192, 100%, 50%);
-}
-.h1{
-    display: inline-block; 
-    width: 1170px;
-    text-align: center;
-}
-.product-icon{
-    vertical-align: top;
-    height: 280px;
-    width: 255px;
-    display: inline-block;
-    margin-left:30px;
-    margin-bottom:100px;
-    cursor: pointer;
-}
-.product-icon>img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    font-size: 0;
-}
-.product-name{
-    height: 40px; 
-    width: 100%;
-    background: rgb(12, 11, 11);
-}
-.product-name>p{
-    display: inline-block;
-    margin: 0px;
-    padding: 10px;
-    color: white;
-}
-.product-name>span{
-    float: right;
-    background: gray;
-    font-size: 18px; 
-    padding: 10px; 
-    color: white;
-}
-.product-icon:hover .product-name{
-    background: hsl(192, 100%, 50%);
-}
-.product-icon:hover .product-name>span {
-    background: hsl(192, 100%, 75%);
-}
-.news{
-    margin: 120px 0 45px 0;
-}
-.news-item{
-    display: inline-block;
-    width: 350px;
-    margin-left: 30px;
-}
-.news-head{
-    display: inline-block;
-    position: relative;
-}
-.news-head::after{
-    content: "";
-    width: 136px; 
-    height: 3px;
-    position: absolute;
-    bottom:-15px; 
-    left:0px; 
-    background: hsl(192, 100%, 50%);
-}
-button{
-    height: 50px;
-    width: 160px;
-    background: #4ec6ab;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    color:white;    
-}
-/* clearfix */
-.body::after {
+h1::after {
   content: "";
-  display: table;
-  clear: both;
+  width: 160px;
+  height: 5px;
+  position: absolute;
+  bottom: -30px;
+  left: 505px;
+  background: hsl(192, 100%, 50%);
+}
+.h1 {
+  display: inline-block;
+  width: 1170px;
+  text-align: center;
+}
+.product-icon {
+  vertical-align: top;
+  height: 280px;
+  width: 255px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.product-icon > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-size: 0;
+}
+.product-name {
+  height: 40px;
+  width: 100%;
+  background: rgb(12, 11, 11);
+}
+.product-name > p {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+}
+.product-name > span {
+  float: right;
+  background: gray;
+  padding: 10px;
+}
+.product-icon:hover .product-name {
+  background: hsl(192, 100%, 50%);
+}
+.product-icon:hover .product-name > span {
+  background: hsl(192, 100%, 75%);
+}
+.news {
+  margin: 120px 0 45px 0;
+}
+.news-item {
+  display: inline-block;
+  width: 350px;
+  margin-left: 30px;
+}
+.news-head {
+  display: inline-block;
+  position: relative;
+}
+.news-head::after {
+  content: "";
+  width: 136px;
+  height: 3px;
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  background: hsl(192, 100%, 50%);
+}
+button {
+  height: 50px;
+  width: 160px;
+  background: #4ec6ab;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
 }
