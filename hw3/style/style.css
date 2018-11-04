@@ -119,3 +119,8 @@ button {
   cursor: pointer;
   color: white;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
