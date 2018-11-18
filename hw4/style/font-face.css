@@ -1,0 +1,42 @@
+.header-logo{
+  font-family: Roboto;
+}
+.nav-link{
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+.h1 {
+  font-size: 48pt;
+  font-family: Open Sans;
+}
+
+.header-logo::first-letter {
+  color: hsl(192, 100%, 50%);
+}
+h1 {
+  text-transform: uppercase;
+}
+.header-logo {
+  font-size: 30pt;
+}
+.nav-item {
+  font-size: 14pt;
+}
+.product-name > p {
+  font-size: 18px;
+  color: white;
+}
+.product-name > span {
+  font-size: 16px;
+  color: white;
+}
+.products{
+  font-family: Roboto;
+}
+.news{
+  font-family: Open Sans;
+}
+.news > buttom {
+  font-size: 16pt;
+}
