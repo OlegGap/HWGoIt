@@ -1,9 +1,11 @@
-* {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
 }
-.body{
-  padding-top:30px;
+.body {
+  padding-top: 30px;
   background-color: #e9f0fd;
 }
 .header {
@@ -27,7 +29,6 @@
 .nav-link:hover {
   color: #1abc9c;
 }
-
 .slaider-bg {
   position: relative;
   display: block;
@@ -50,7 +51,7 @@
 }
 .slaider {
   height: 600px;
-  max-width: 100% ;
+  max-width: 100%;
   margin-top: 30px;
   display: flex;
   justify-content: center;
@@ -114,9 +115,9 @@
 .colection-container {
   margin-top: 50px;
   width: 100%;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .colection-container > article {
   display: inline-block;
@@ -161,13 +162,13 @@
 .colection-article::before {
   content: "";
   position: absolute;
-  width: 96%;
-  height: 96%;
-  top: 2%;
-  left: 2%;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 94%;
+  height: 94%;
+  top: 3%;
+  left: 3%;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
   z-index: -1;
 }
 .colection-button-container {
@@ -188,43 +189,54 @@
   width: 50px;
   height: 50px;
   margin-right: 3px;
+  background: transparent;
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
-.colection-button:first-child{
+.colection-button:first-child {
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
-.colection-button:nth-last-child(2){
+.colection-button:nth-child(3) {
   margin-right: 0px;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
+
 .colection-button-last {
-  display: flex;
-  align-items: center;
   align-self: flex-start;
   width: 160px;
   height: 50px;
   margin-top: 5px;
   border: 1px solid #fff;
-  background: #615d5d;
+  background: transparent;
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+}
+.colection-button-last-iner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .colection-button-last > a {
-  padding:10px 12px 10px 5px;
   text-decoration: none;
   font-size: 18px;
   color: #000;
 }
-.colection-button>a{
+.colection-button > a {
   padding: 12px 15px;
 }
 .colection-button:hover {
-  background: #15ffd09b;
+  background-color: #15ffd09b;
+  border-color: transparent;
 }
 .colection-button-last:hover {
-  background: #15ffd0;
+  background: #615d5d;
+  border-color: transparent;
 }
 .colection-article:hover::before {
   z-index: 1;
+  opacity: 0.5;
 }
 .colection-article:hover .colection-button-container {
   z-index: 2;
