@@ -1,7 +1,6 @@
 body {
   margin: 0 auto;
   padding: 0;
-  display: inline-block;
   width: 1170px;
 }
 .header-logo {
@@ -10,26 +9,27 @@ body {
   margin-left: 30px;
 }
 .header-logo::first-letter {
-  color: hsl(192, 100%, 50%);
+  color: #1abc9c;
 }
 ul {
   list-style: none;
 }
 .nav-link {
   text-decoration: none;
+  padding: 5px;
   color: black;
 }
 .nav-item {
   float: right;
-  padding-left: 35px;
-  padding-top: 43px;
+  margin-left: 30px;
+  margin-top: 45px;
 }
 .nav-list {
   margin-right: 30px;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: hsl(192, 100%, 50%);
+  color: #1abc9c;
 }
 h1 {
   display: inline-block;
@@ -41,11 +41,11 @@ h1 {
 h1::after {
   content: "";
   width: 160px;
-  height: 5px;
+  height: 7px;
   position: absolute;
   bottom: -30px;
   left: 505px;
-  background: hsl(192, 100%, 50%);
+  background: #1abc9c;
 }
 .h1 {
   display: inline-block;
@@ -69,25 +69,30 @@ h1::after {
   font-size: 0;
 }
 .product-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 41px;
   width: 100%;
-  background: rgb(12, 11, 11);
+  background: #323232;
 }
 .product-name > p {
-  display: inline-block;
-  margin: 0px;
   padding: 10px;
 }
 .product-name > span {
-  float: right;
-  background: gray;
-  padding: 11px;
+  height: 41px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8c8c8c;
 }
 .product-icon:hover .product-name {
-  background: hsl(192, 100%, 50%);
+  background: #1abc9c;
 }
 .product-icon:hover .product-name > span {
-  background: hsl(192, 100%, 75%);
+  z-index: 2;
+  background: #7fd9c7;
 }
 .news {
   margin: 120px 0 45px 0;
@@ -97,7 +102,6 @@ h1::after {
   width: 350px;
   margin-left: 30px;
 }
-
 .news-head {
   display: inline-block;
   position: relative;
@@ -109,12 +113,12 @@ h1::after {
   position: absolute;
   bottom: -15px;
   left: 0px;
-  background: hsl(192, 100%, 50%);
+  background: #1abc9c;
 }
 button {
   height: 50px;
   width: 160px;
-  background: #4ec6ab;
+  background: #1abc9c;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
