@@ -1,7 +1,6 @@
-body {
-  margin: 0 auto;
+*{
+  margin: 0;
   padding: 0;
-  width: 1170px;
 }
 .header-logo {
   float: left;
@@ -11,7 +10,7 @@ body {
 .header-logo::first-letter {
   color: #1abc9c;
 }
-ul {
+.nav-list {
   list-style: none;
 }
 .nav-link {
@@ -31,26 +30,30 @@ ul {
 .nav-link:focus {
   color: #1abc9c;
 }
-h1 {
+.title {
   display: inline-block;
   position: relative;
-  margin-top: 110px;
-  margin-right: 0px;
-  margin-bottom: 100px;
+  width: 100%;
+  margin: 0  auto;
+  margin: 110px 0;
+  text-align: center;
 }
-h1::after {
+.title::after {
   content: "";
   width: 160px;
   height: 7px;
   position: absolute;
+  transform: translateX(-50%);
   bottom: -30px;
-  left: 505px;
+  left: 50%;
   background: #1abc9c;
 }
-.h1 {
-  display: inline-block;
+.products-container{
+  width: 100%;  
+}
+.products{
   width: 1170px;
-  text-align: center;
+  margin: 0 auto;
 }
 .product-icon {
   vertical-align: top;
@@ -94,8 +97,13 @@ h1::after {
   z-index: 2;
   background: #7fd9c7;
 }
-.news {
+.news-container {
   margin: 120px 0 45px 0;
+  width: 100%;
+}
+.news{
+  width: 1170px;
+  margin: 0 auto;
 }
 .news-item {
   display: inline-block;
@@ -115,11 +123,15 @@ h1::after {
   left: 0px;
   background: #1abc9c;
 }
-button {
+.news-text{
+  margin-top: 45px;
+}
+.news-button {
   height: 50px;
   width: 160px;
+  margin-top: 15px;
   background: #1abc9c;
-  border: 0;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   color: white;
