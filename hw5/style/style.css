@@ -162,10 +162,11 @@
 .colection-article::before {
   content: "";
   position: absolute;
-  width: 94%;
-  height: 94%;
+  width: 92%;
+  height: 95%;
   top: 3%;
-  left: 3%;
+  left: 4%;
+  box-shadow:0 0 0 8px #fff;
   background-color: #000;
   opacity: 0;
   transition: opacity 0.3s ease-in;
