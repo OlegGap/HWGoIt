@@ -8,11 +8,16 @@
   padding-top: 30px;
   background-color: #e9f0fd;
 }
-.header {
+.header-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 100%;
+  width: 1080px
 }
 .nav-list {
   list-style: none;
@@ -75,7 +80,7 @@
   z-index: 2;
 }
 .slaider-content {
-  transform: translateY(-20px);
+    transform: translateY(-20px);
   flex-direction: column;
 }
 .slaider-ctrl-prev {
