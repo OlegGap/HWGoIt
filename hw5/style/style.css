@@ -75,6 +75,7 @@
   z-index: 2;
 }
 .slaider-content {
+  transform: translateY(-20px);
   flex-direction: column;
 }
 .slaider-ctrl-prev {
