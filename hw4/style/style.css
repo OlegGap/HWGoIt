@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+.header-container{
+  width: 100%;
+}
+.header{
+  max-width: 1170px;
+  margin: 0 auto;
+}
 .header-logo {
   float: left;
   margin-top: 35px;
@@ -52,7 +59,7 @@
   width: 100%;  
 }
 .products{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .product-icon {
@@ -98,11 +105,11 @@
   background: #7fd9c7;
 }
 .news-container {
-  margin: 120px 0 45px 0;
+  margin-bottom:45px;
   width: 100%;
 }
 .news{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .news-item {
@@ -135,4 +142,9 @@
   border-radius: 5px;
   cursor: pointer;
   color: white;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
