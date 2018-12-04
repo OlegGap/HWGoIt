@@ -26,8 +26,9 @@
 .colection-container{
   font-family: Roboto;
 }
-.colection-botton-last>span{
+.colection-button-last-text{
   font-family: Open Sans;
+font-size: 11pt;
 }
 .product-name{
   font-family: Roboto-Black;
