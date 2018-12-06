@@ -1,0 +1,40 @@
+.header-logo {
+  font-family: Wisdom-Script;
+  font-size: 26pt;
+}
+.nav-link {
+  font-family: Montserrat-Bold;
+  color: #000;
+  font-size: 13pt;
+}
+.title, .contact-title{
+  font-family: Montserrat-Bold;
+  font-size: 33pt;
+}
+.title-under, .contact-title-under{
+  font-family: Droid-Serif;
+  font-size: 14pt;
+  color: #777;
+}
+.service-text-main {
+  font-family: Montserrat-Bold;
+  font-size: 18pt;
+}
+.service-text {
+  font-family: Robotoslab-Regular;
+  font-size: 14pt;
+  color: #777;
+}
+.contact-title{
+  color: #fff;
+}
+.contact-form-input-text>input{
+  font-family: Montserrat-Bold;
+  font-size: 12pt;
+}
+.contact-form [type="submit"]{
+  font-family: Montserrat-Bold;
+  font-size: 13pt;
+  color: #fff;
+  cursor: pointer;
+}
