@@ -42,9 +42,11 @@ footer, header, hgroup, menu, nav, section {
     border: 2px solid transparent;
     border-radius: 20px;
     background-color: transparent;
+    transition: border-color 0.2s linear;
 }
 
 .header__button:hover{
+    cursor: pointer;
     border-color: #fff;  
 }
 .section-main{
@@ -170,6 +172,7 @@ footer, header, hgroup, menu, nav, section {
     margin-top: 30px;
     margin-bottom: 50px;
     background: #fff;
+    transition: background-color 0.2s linear;
 }
 .partners__button:hover{
     background-color: hsla(359, 100%, 88%, 0.827);
