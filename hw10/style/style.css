@@ -1,0 +1,224 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+.header-logo {
+  align-self: center;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.nav-item {
+  position: relative;
+  margin-right: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 5px;
+  color: #fff;
+  transition: color 0.2s linear;
+}
+.nav-link::after {
+  position: absolute;
+  content: "";
+  width: 85%;
+  height: 3px;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f38181;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.nav-link:hover {
+  color: #f38181;
+}
+.title-container {
+  margin-top: 130px;
+  width: 100%;
+  text-align: center;
+}
+.title {
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.title::after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: red;
+}
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  flex-basis: 380px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.service-text-main {
+  text-transform: uppercase;
+}
+.service-text {
+  margin-top: 10px;
+}
+.service-svg-icon {
+  margin-right: 30px;
+}
+.title-under-text {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 60px;
+}
+.team-container {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-card {
+  margin-right: 30px;
+}
+.team-card:last-child {
+  margin-right: 0;
+}
+.team-icon {
+  width: 380px;
+  height: 470px;
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px #95e1d3;
+  transform: translate(0px, 0px);
+  transition: box-shadow 0.2s linear, transform 0.2s linear;
+}
+.team-icon1 {
+  background-image: url(../img/Team-photo1.jpg);
+}
+.team-icon2 {
+  background-image: url(../img/Team-photo2.jpg);
+}
+.team-icon3 {
+  background-image: url(../img/Team-photo3.jpg);
+}
+.team-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#f38181, #fce380);
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.team-icon:hover::before {
+  opacity: 0.9;
+}
+.team-icon:hover {
+  box-shadow: 10px 10px #95e1d3;
+  transform: translate(-10px, -10px);
+}
+.team-button-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.team-icon:hover .team-button-container {
+  opacity: 1;
+}
+.team-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fce38a;
+  transition: background-color 0.2s linear;
+}
+.team-button:hover {
+  background-color: #95e1d3;
+}
+.team-button-link {
+  margin-right: 1px;
+}
+.team-button-container > .team-button-link:last-child {
+  margin: 0;
+}
+.team-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.team-text-title {
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  margin-top: 80px;
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+.footer-email-type-email {
+  height: 40px;
+  width: 240px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+.footer-email-type-submit {
+  width: 150px;
+  height: 40px;
+  background: #95e1d3;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: translate(-5px, -1px);
+}
+.footer-email {
+  display: block-inline;
+}
