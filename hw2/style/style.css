@@ -1,0 +1,45 @@
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+.nav-item{
+    display: inline-block;
+}
+.nav-item:not(:first-child){
+    margin-left: 120px;
+}
+.nav-list {
+    text-align: center;
+    list-style: none;
+}
+nav{
+    margin-top: 75px;
+}
+article{
+    display: inline-block;
+    width: 420px;
+} 
+article:nth-child(2n-1){
+    margin-right: 56px;
+}
+.article2{  
+    margin-top: 40px;
+}
+article:not(:nth-child(6)){
+    padding-bottom: 130px;
+}
+article:nth-child(5){
+    padding-bottom: 0px;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    margin-top: 55px;
+    width: 160px;
+    height: 60px;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.header-logo{
+  font-family: Roboto-Light;
+  font-size: 30px;
+}
+.header-logo::first-letter{
+  font-family: Roboto-Black;
+  color: #1abc9c;
+}
+.nav-link{
+  font-family: Open Sans-Bold;
+  color: #000;
+}
+.slaider-h1{
+  font-family: Roboto-Black;
+  font-size: 60px;
+  text-transform: uppercase;;
+}
+.slaider-p{
+  font-family: Roboto-Light;
+  font-size: 30px;
+}
+.colection-head{
+  font-family: Roboto-Black;
+  font-size: 50px;
+}
+.colection-container{
+  font-family: Roboto;
+}
+.colection-button-last-text{
+  font-family: Open Sans;
+font-size: 11pt;
+}
+.product-name{
+  font-family: Roboto-Black;
+}
+.footer{
+  font-family: Open Sans;
+}
