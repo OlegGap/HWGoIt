@@ -1,22 +1,22 @@
-.header-logo {
+.site-logo {
   font-family: Montserrat-Bold;
   color: #95e1d3;
   font-size: 30pt;
 }
-.nav-link {
+.nav__link {
   font-family: Montserrat-Regular;
   color: #95e1d3;
   font-size: 16pt;
 }
-.title-upertext {
+.pre-title {
   font-family: KaushanScript-Regular;
   font-size: 24pt;
 }
 .title {
   font-family: Montserrat-Bold;
   font-size: 30pt;
-}
-.service-text-main {
+ }
+/*.service-text-main {
   font-family: Montserrat-Regular;
   font-size: 14pt;
 }
@@ -29,28 +29,28 @@
   font-family: Roboto-Regular;
   color: #999999;
   font-size: 15pt;
-}
-.team-text-title {
+} */
+.team__name {
   font-size: 14pt;
   font-family: Montserrat-Regular;
 }
-.team-text-text {
+.team__name-info {
   font-size: 15pt;
   font-family: Roboto-LightItalic;
   color: #999999;
 }
-.footer-info {
+.footer__info {
   font-size: 14pt;
   font-family: Montserrat-Regular;
 }
-.footer-email-type-email {
+.footer__email-options {
   font-size: 15pt;
   font-family: Roboto-LightItalic;
 }
-.footer-info > span {
+.footer__info > span {
   color: #f38181;
 }
-.footer-email-type-submit {
+.footer__submit-options {
   font-size: 14pt;
   font-family: Montserrat-Bold;
   color: #fff;

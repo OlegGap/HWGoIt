@@ -5,34 +5,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header-container {
+.header {
   display: flex;
   width: 80%;
   margin-left: 10%;
   margin-top: 35px;
   justify-content: space-between;
 }
-.header-logo {
+.site-logo {
   align-self: center;
 }
-.nav-list {
+.nav-wrapper {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-transform: uppercase;
   margin-top: 15px;
 }
-.nav-item {
+.nav__item {
   position: relative;
   margin-right: 10px;
 }
-.nav-link {
+.nav__link {
   text-decoration: none;
   padding: 5px;
-  color: #fff;
+  color: #000;
   transition: color 0.2s linear;
 }
-.nav-link::after {
+.nav__link::after {
   position: absolute;
   content: "";
   width: 85%;
@@ -40,17 +40,17 @@
   bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background: #f38181;
+  background: #fce38a;
   opacity: 0;
   transition: opacity 0.2s linear;
 }
-.nav-link:hover::after {
+.nav__link:hover::after {
   opacity: 1;
 }
-.nav-link:hover {
-  color: #f38181;
+.nav__link:hover {
+  color: #fce38a;
 }
-.title-container {
+.title-wrapper {
   margin-top: 130px;
   width: 100%;
   text-align: center;
@@ -70,19 +70,31 @@
   height: 3px;
   background: red;
 }
-.service-container {
+
+.services__icon-wrapper{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.services__icon{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.service {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: center;
 }
+
 .service {
   display: flex;
   flex-basis: 380px;
   margin-top: 100px;
   justify-content: space-between;
 }
-.service-text-main {
+/* .service-text-main {
   text-transform: uppercase;
 }
 .service-text {
@@ -90,7 +102,8 @@
 }
 .service-svg-icon {
   margin-right: 30px;
-}
+} */
+
 .title-under-text {
   display: flex;
   text-align: center;
@@ -98,19 +111,19 @@
   margin-left: 10%;
   margin-top: 60px;
 }
-.team-container {
+.team {
   display: flex;
   margin-top: 90px;
   justify-content: center;
   flex-wrap: wrap;
 }
-.team-card {
+.team-wrapper {
   margin-right: 30px;
 }
-.team-card:last-child {
+.team-wrapper:last-child {
   margin-right: 0;
 }
-.team-icon {
+.team__icon {
   width: 380px;
   height: 470px;
   display: block;
@@ -121,16 +134,16 @@
   transform: translate(0px, 0px);
   transition: box-shadow 0.2s linear, transform 0.2s linear;
 }
-.team-icon1 {
+.team__icon--1 {
   background-image: url(../img/Team-photo1.jpg);
 }
-.team-icon2 {
+.team__icon--2 {
   background-image: url(../img/Team-photo2.jpg);
 }
-.team-icon3 {
+.team__icon--3 {
   background-image: url(../img/Team-photo3.jpg);
 }
-.team-icon::before {
+.team__icon::before {
   content: "";
   position: absolute;
   top: 0;
@@ -141,14 +154,14 @@
   opacity: 0;
   transition: opacity 0.2s linear;
 }
-.team-icon:hover::before {
+.team__icon:hover::before {
   opacity: 0.9;
 }
-.team-icon:hover {
+.team__icon:hover {
   box-shadow: 10px 10px #95e1d3;
   transform: translate(-10px, -10px);
 }
-.team-button-container {
+.team__button-wrapper {
   display: flex;
   width: 100%;
   height: 100%;
@@ -158,10 +171,10 @@
   opacity: 0;
   transition: opacity 0.2s linear;
 }
-.team-icon:hover .team-button-container {
+.team__icon:hover .team__button-wrapper {
   opacity: 1;
 }
-.team-button {
+.team__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,31 +183,32 @@
   background-color: #fce38a;
   transition: background-color 0.2s linear;
 }
-.team-button:hover {
+.team__button:hover {
   background-color: #95e1d3;
 }
-.team-button-link {
+.team__link {
   margin-right: 1px;
 }
-.team-button-container > .team-button-link:last-child {
+.team__link:last-child {
   margin: 0;
 }
-.team-text {
+.team__name-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 30px;
 }
-.team-text-title {
+.team__name {
   text-transform: uppercase;
   margin-bottom: 17px;
 }
+
 .footer {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.footer-container {
+.footer-wrapper {
   margin-top: 80px;
   display: flex;
   width: 80%;
@@ -204,13 +218,16 @@
   align-items: center;
   border-top: 1px solid #ccc;
 }
-.footer-email-type-email {
+.footer__email {
+  display: block-inline;
+}
+.footer__email-options {
   height: 40px;
   width: 240px;
   border: 1px solid #ccc;
   padding-left: 10px;
 }
-.footer-email-type-submit {
+.footer__submit-options {
   width: 150px;
   height: 40px;
   background: #95e1d3;
@@ -218,7 +235,4 @@
   text-transform: uppercase;
   cursor: pointer;
   transform: translate(-5px, -1px);
-}
-.footer-email {
-  display: block-inline;
 }
