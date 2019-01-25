@@ -150,13 +150,22 @@
 .header__button{
   text-transform: uppercase;
   font-family: Montserrat-Bold;
-  font-size: 12pt;
+  font-size: 10pt;
   margin-top: 50px;
   color: #fff;
   border: #fff solid 3px;
-  background: inherit;
+  background-color: inherit;
   width: 150px;
   height: 40px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear, border 0.2s linear;
+  -o-transition: background-color 0.2s linear, border 0.2s linear;
+  transition: background-color 0.2s linear, border 0.2s linear;
+
+}
+.header__button:hover{
+  background-color: #f0aaaae1;
+  border-color: #f38181;
 }
 .title-wrapper {
   margin-top: 50px;
