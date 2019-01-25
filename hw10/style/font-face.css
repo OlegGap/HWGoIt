@@ -1,11 +1,10 @@
 .site-logo {
   font-family: Montserrat-Bold;
-  color: #95e1d3;
+  color: #fff;
   font-size: 30pt;
 }
 .nav__link {
   font-family: Montserrat-Regular;
-  color: #95e1d3;
   font-size: 16pt;
 }
 .pre-title {
@@ -16,20 +15,20 @@
   font-family: Montserrat-Bold;
   font-size: 30pt;
  }
-/*.service-text-main {
+.services__title {
   font-family: Montserrat-Regular;
   font-size: 14pt;
 }
-.service-text {
+.services__under-title {
   font-family: Roboto-Regular;
   font-size: 15pt;
   color: #999999;
 }
-.title-under-text {
+.title__under-text {
   font-family: Roboto-Regular;
   color: #999999;
   font-size: 15pt;
-} */
+}
 .team__name {
   font-size: 14pt;
   font-family: Montserrat-Regular;
