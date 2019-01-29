@@ -130,6 +130,12 @@
   background: inherit;
   width: 150px;
   height: 40px;
+  transition: background-color, border-color 0.2s linear,  0.2s linear; 
+}
+.header__button:hover{
+  background-color: #f48a8a;
+  cursor: pointer;
+  border-color: #f05c5c
 }
 .title-wrapper {
   margin-top: 50px;
